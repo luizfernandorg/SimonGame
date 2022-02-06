@@ -44,7 +44,7 @@ $(".btn").on('click', (event) => {
                 nextSequence()
             }
         }else {
-            // if the player get a worng sequence of colora reset the game
+            // if the player get a worng sequence of color reset the game
             const audio = new Audio('sounds\\wrong.mp3')
             audio.play()
             error = 1
